@@ -136,6 +136,25 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 }
 
+.mockup-row {
+	display: flex;
+}
+
+.mockup-column {
+	flex: 33.33%;
+	padding: 5px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.outline {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 a {
 
 	text-decoration: none;
